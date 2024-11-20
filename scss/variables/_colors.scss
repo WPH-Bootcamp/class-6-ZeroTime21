@@ -79,3 +79,6 @@ $colors: (
     950: #053321,
   ),
 );
+@each $key, $value in $colors {
+  @debug $key;
+}
